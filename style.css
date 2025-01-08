@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+body{
+    background-image:linear-gradient(to left, green, blue) ;
+
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+nav a {
+    color: slateblue;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+header, main {
+    background-color: rgb(83, 21, 21);
+    border-radius: 20px;
+    padding: 20px;
+    min-height: 100px;
+}
+
+.imgtop{
+    width: 100px;
+    float: left;
+}
+
+nav li {
+    display: inline;
+    margin-left: 10px;
+}
+
+h1, h2{
+    font-family: "jaro", sans-serif;
+    color: green;
+}
+
+p{
+    color: green;
+}
+
+main{
+    margin-top: 20px;
+    line-height: 1.5em;
+}
+
+
+@media only screen and (max-width : 700px) {
+    /*styles */
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    h1{
+    text-align: center;
+    background-color: rgb(83, 21, 21);
+    font-size: 1.6em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+
+    .imgtop{
+        display: none;
+    }
+    
+    nav a {
+    display: inline-block;
+    width: 100%;
+    margin-left: 10px;
+    background-color: aquamarine;
+    text-align: center;
+    text-decoration: none;
+    margin-left: -8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    }
+    
+    h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+    ul{
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: 0px;
+    }
+
+}
