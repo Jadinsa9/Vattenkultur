@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+
 body{
-    background-image:linear-gradient(to left, green, blue) ;
+    background-image:linear-gradient(to bottom right,  rgb(18, 102, 79) 30%, rgb(50, 222, 138) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
     max-width: 1000px;
     margin: auto;
@@ -9,14 +13,15 @@ body{
 }
 
 nav a {
-    color: slateblue;
+    color: black;
     text-transform: uppercase;
     letter-spacing: 1px;
     text-decoration: none;
 }
 
 header, main {
-    background-color: rgb(83, 21, 21);
+    background-image:linear-gradient(to bottom right, rgb(84, 198, 235), rgb(255, 153, 201));
+    
     border-radius: 20px;
     padding: 20px;
     min-height: 100px;
@@ -34,11 +39,7 @@ nav li {
 
 h1, h2{
     font-family: "jaro", sans-serif;
-    color: green;
-}
-
-p{
-    color: green;
+    text-align: center;
 }
 
 main{
@@ -46,6 +47,10 @@ main{
     line-height: 1.5em;
 }
 
+li a:hover{
+    background-image: transparent;
+    opacity: 20%;
+}
 
 @media only screen and (max-width : 700px) {
     /*styles */
@@ -57,7 +62,6 @@ main{
     
     h1{
     text-align: center;
-    background-color: rgb(83, 21, 21);
     font-size: 1.6em;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -71,7 +75,7 @@ main{
     display: inline-block;
     width: 100%;
     margin-left: 10px;
-    background-color: aquamarine;
+    background-color: rgb(18, 102, 79);
     text-align: center;
     text-decoration: none;
     margin-left: -8px;
